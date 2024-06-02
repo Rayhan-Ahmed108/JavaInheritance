@@ -11,7 +11,7 @@ public class BasicAccount extends BankAccount {
 
     public void withdraw(double amount){
         if(amount > getBalance()){
-            System.out.println("not_available");
+            System.out.println("not available");
         }
         else{
             double remainingBalance = getBalance()-amount;
